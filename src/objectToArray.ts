@@ -8,7 +8,7 @@ interface Obj {
  * Takes all values matching non-negative integer keys in an object
  * and puts them in an array
  */
-export function objectToArray<obj extends Readonly<Obj>, V extends obj[keyof obj]>(payload: obj){
+export function objectToArray<obj extends Readonly<Obj>, V extends obj[keyof obj]>(payload: obj) {
   const indices = Object.keys(payload)
     .map(Number)
     .filter(isNonNegativeInteger)
@@ -24,23 +24,23 @@ export function objectToArray<obj extends Readonly<Obj>, V extends obj[keyof obj
   return arr
 }
 
-export function __legacy__objectToArray< obj extends Readonly<Obj> >(payload: obj) {
-    if(!payload) return false
-    let tmp = []
-  
-    const keys = Object.keys(payload)
-    const values = Object.values(payload)
-    const sourceLength = keys.length
-  
-    for (let i = 0; i < sourceLength; i++) {
-      let obj = {
-          key: "",
-          value: null
-      }
-      obj.key = keys[i]
-      obj.value = values[i]
-  
-      tmp[i] = obj
+export function __legacy__objectToArray<obj extends Readonly<Obj>>(payload: obj) {
+  if (!payload) return false
+  let tmp = []
+
+  const keys = Object.keys(payload)
+  const values = Object.values(payload)
+  const sourceLength = keys.length
+
+  for (let i = 0; i < sourceLength; i++) {
+    let obj = {
+      key: "",
+      value: null
     }
-    return tmp
+    obj.key = keys[i]
+    obj.value = values[i]
+
+    tmp[i] = obj
   }
+  return tmp
+}
