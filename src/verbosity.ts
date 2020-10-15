@@ -20,18 +20,19 @@ interface optStack {
 }
 
 interface opt {
-    color: string,
+    secondColor: any,
+    color: any,
     type: string
 }
 
 export default <obj extends Readonly<Obj>>(data: obj["data"], params?: obj["params"], stackTraceParams?: obj["stackTraceParams"]) => {
-    let initData;
-    initData = data
-
     let opt = <opt>{
-        color: "green",
+        secondColor: [],
+        color: [],
         type: "log"
     }
+    opt.color[0] = "blue" // index 0 > for stack color
+
     let optStackTrace = <optStack>{
         line: false,
         method: true,
@@ -68,6 +69,23 @@ export default <obj extends Readonly<Obj>>(data: obj["data"], params?: obj["para
         })
     }
 
+    const getColor = (data: any, index: number) => {
+        let thisColor = opt.color[index]
+        let thisBackground = opt.secondColor[index]
+
+        if (thisBackground) {
+            // @ts-ignore
+            return chalk[thisColor][thisBackground](data)
+        }
+
+        if (thisColor) {
+            // @ts-ignore
+            return chalk[thisColor](data)
+        }
+
+        return data
+    }
+
     const stackTraceKeys = Object.keys(optStackTrace)
     const stackTraceLength = stackTraceKeys.length
     let modifyCount = 0
@@ -76,26 +94,36 @@ export default <obj extends Readonly<Obj>>(data: obj["data"], params?: obj["para
     for (let i = 0; i < stackTraceLength; i++) {
         const key = stackTraceKeys[i]
         // @ts-ignore
-        const value = optStackTrace[stackTraceKeys[i]]
-        const divisor = (i == (stackTraceLength - 1) ? " | " : " > ")
+        const stackTraceDataKey = `${stackTraceData[key]}`
+        const divisor = getColor((i == (stackTraceLength - 1) ? " | " : " > "), 0)
+
         // console.log(`[${key}] is the ${i == stackTraceLength? "last opt" : `n[${i}]` }`)
         // console.log(i, "/", stackTraceLength -1)
+
         // @ts-ignore
-        if (typeof (stackTraceData[key]) !== "undefined" && value) {
-            if (Array.isArray(initData)) {
+        if (typeof (stackTraceData[key]) !== "undefined" && optStackTrace[key]) {
+            if (Array.isArray(data)) {
                 if (modifyCount == 0) {
-                    // @ts-ignore
-                    tmp = (chalk[opt.color](`${stackTraceData[key]}`) + divisor)
+                    tmp = (getColor(stackTraceDataKey, 0) + divisor)
                 } else {
-                    // @ts-ignore
-                    tmp = (chalk[opt.color](`${stackTraceData[key]}`) + divisor + tmp)
+                    tmp = (getColor(stackTraceDataKey, 0) + divisor + tmp)
                 }
                 if (i == (stackTraceLength - 1)) {
-                    data.unshift(tmp)
+                    let mix: any[] = []
+                    data.forEach((element: any) => {
+                        if (opt.color[1] || opt.secondColor[1]) {
+                            if (typeof (element) == "string") {
+                                return mix.push(getColor(element, 1))
+                            }
+                        }
+                        mix.push(element)
+                    })
+                    mix.unshift(tmp)
+                    data = mix
                 }
             } else {
                 // @ts-ignore
-                data = (chalk[opt.color](`${stackTraceData[key]}`) + divisor + data)
+                data = (getColor(stackTraceDataKey, 0) + divisor + getColor(data, 1))
             }
             modifyCount++
         }
