@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getObjectPaths Should output correct value (default) 1`] = `
+Array [
+  Array [
+    "a",
+    "b",
+    "c",
+  ],
+  Array [
+    "a",
+    "b",
+    "m",
+  ],
+  Array [
+    "a",
+    "d",
+  ],
+  Array [
+    "e",
+  ],
+  Array [
+    "numbers",
+    "h",
+  ],
+  Array [
+    "numbers",
+    "i",
+  ],
+  Array [
+    "numbers",
+    "j",
+  ],
+  Array [
+    "numbers",
+    "k",
+  ],
+  Array [
+    "numbers",
+    "l",
+  ],
+]
+`;
+
+exports[`getObjectPaths Should output correct value (ignore foo) 1`] = `
+Array [
+  Array [
+    "a",
+    "b",
+    "m",
+  ],
+  Array [
+    "a",
+    "d",
+  ],
+  Array [
+    "e",
+  ],
+  Array [
+    "numbers",
+    "h",
+  ],
+  Array [
+    "numbers",
+    "i",
+  ],
+  Array [
+    "numbers",
+    "j",
+  ],
+  Array [
+    "numbers",
+    "k",
+  ],
+  Array [
+    "numbers",
+    "l",
+  ],
+]
+`;
+
+exports[`getObjectPaths Should output correct value (ignore non-plain objects) 1`] = `
+Array [
+  Array [
+    "a",
+    "b",
+    "c",
+  ],
+  Array [
+    "a",
+    "b",
+    "m",
+  ],
+  Array [
+    "a",
+    "d",
+  ],
+  Array [
+    "e",
+  ],
+  Array [
+    "f",
+    "69",
+  ],
+  Array [
+    "numbers",
+    "h",
+  ],
+  Array [
+    "numbers",
+    "i",
+  ],
+  Array [
+    "numbers",
+    "j",
+  ],
+  Array [
+    "numbers",
+    "k",
+  ],
+  Array [
+    "numbers",
+    "l",
+  ],
+]
+`;

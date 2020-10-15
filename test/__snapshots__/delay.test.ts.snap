@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`delay Should work 1`] = `
+Array [
+  "bar",
+  "foo",
+]
+`;

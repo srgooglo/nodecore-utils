@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`__legacy__objectToArray Should convert object to array of objects with schema key/value 1`] = `
+Array [
+  Object {
+    "key": "0",
+    "value": "a",
+  },
+  Object {
+    "key": "1",
+    "value": "b",
+  },
+  Object {
+    "key": "2",
+    "value": "c",
+  },
+  Object {
+    "key": "4",
+    "value": "e",
+  },
+  Object {
+    "key": "5",
+    "value": "f",
+  },
+  Object {
+    "key": "6",
+    "value": "g",
+  },
+  Object {
+    "key": "7",
+    "value": "h",
+  },
+  Object {
+    "key": "8",
+    "value": "i",
+  },
+  Object {
+    "key": "9",
+    "value": "j",
+  },
+  Object {
+    "key": "11",
+    "value": "l",
+  },
+  Object {
+    "key": "12",
+    "value": "m",
+  },
+  Object {
+    "key": "13",
+    "value": "n",
+  },
+  Object {
+    "key": "test1",
+    "value": "1test",
+  },
+  Object {
+    "key": "test2",
+    "value": "2test",
+  },
+]
+`;
+
+exports[`objectToArray Should convert object to array 1`] = `
+Array [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+]
+`;

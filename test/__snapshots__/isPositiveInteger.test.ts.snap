@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`isPositiveInteger Should isPositiveInteger() correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(-0.4) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(-1) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(-4.5) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(-9007199254740991) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(-Infinity) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(0) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(0) correctly 2`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(1) correctly 1`] = `true`;
+
+exports[`isPositiveInteger Should isPositiveInteger(1.4142135623730951) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(1.7976931348623157e+308) correctly 1`] = `true`;
+
+exports[`isPositiveInteger Should isPositiveInteger(2.220446049250313e-16) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(5) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(5e-324) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(10000) correctly 1`] = `true`;
+
+exports[`isPositiveInteger Should isPositiveInteger(9007199254740991) correctly 1`] = `true`;
+
+exports[`isPositiveInteger Should isPositiveInteger(Infinity) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(NaN) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(false) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(null) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(string) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(true) correctly 1`] = `false`;
+
+exports[`isPositiveInteger Should isPositiveInteger(undefined) correctly 1`] = `false`;

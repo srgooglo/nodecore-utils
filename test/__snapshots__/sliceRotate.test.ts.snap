@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sliceRotate should convert to a rolled range correctly 1`] = `
+Array [
+  4,
+  5,
+  1,
+]
+`;
+
+exports[`sliceRotate should convert to a serial range correctly 1`] = `
+Array [
+  2,
+  3,
+  4,
+]
+`;

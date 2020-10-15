@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ordinal Should ordinal(1) correctly 1`] = `"1st"`;
+
+exports[`ordinal Should ordinal(2) correctly 1`] = `"2nd"`;
+
+exports[`ordinal Should ordinal(3) correctly 1`] = `"3rd"`;
+
+exports[`ordinal Should ordinal(4) correctly 1`] = `"4th"`;
+
+exports[`ordinal Should ordinal(5) correctly 1`] = `"5th"`;
+
+exports[`ordinal Should ordinal(6) correctly 1`] = `"6th"`;
+
+exports[`ordinal Should ordinal(7) correctly 1`] = `"7th"`;
+
+exports[`ordinal Should ordinal(8) correctly 1`] = `"8th"`;
+
+exports[`ordinal Should ordinal(9) correctly 1`] = `"9th"`;
+
+exports[`ordinal Should ordinal(10) correctly 1`] = `"10th"`;
+
+exports[`ordinal Should ordinal(11) correctly 1`] = `"11th"`;
+
+exports[`ordinal Should ordinal(12) correctly 1`] = `"12th"`;
+
+exports[`ordinal Should ordinal(13) correctly 1`] = `"13th"`;
+
+exports[`ordinal Should ordinal(14) correctly 1`] = `"14th"`;
+
+exports[`ordinal Should ordinal(15) correctly 1`] = `"15th"`;
+
+exports[`ordinal Should ordinal(16) correctly 1`] = `"16th"`;
+
+exports[`ordinal Should ordinal(17) correctly 1`] = `"17th"`;
+
+exports[`ordinal Should ordinal(18) correctly 1`] = `"18th"`;
+
+exports[`ordinal Should ordinal(19) correctly 1`] = `"19th"`;
+
+exports[`ordinal Should ordinal(20) correctly 1`] = `"20th"`;
+
+exports[`ordinal Should ordinal(21) correctly 1`] = `"21st"`;
+
+exports[`ordinal Should ordinal(22) correctly 1`] = `"22nd"`;
+
+exports[`ordinal Should ordinal(23) correctly 1`] = `"23rd"`;
+
+exports[`ordinal Should ordinal(24) correctly 1`] = `"24th"`;
+
+exports[`ordinal Should ordinal(25) correctly 1`] = `"25th"`;
+
+exports[`ordinal Should ordinal(26) correctly 1`] = `"26th"`;
+
+exports[`ordinal Should ordinal(27) correctly 1`] = `"27th"`;
+
+exports[`ordinal Should ordinal(28) correctly 1`] = `"28th"`;
+
+exports[`ordinal Should ordinal(29) correctly 1`] = `"29th"`;
+
+exports[`ordinal Should ordinal(30) correctly 1`] = `"30th"`;
+
+exports[`ordinal Should ordinal(31) correctly 1`] = `"31st"`;
+
+exports[`ordinal Should ordinal(32) correctly 1`] = `"32nd"`;
+
+exports[`ordinal Should ordinal(33) correctly 1`] = `"33rd"`;
+
+exports[`ordinal Should ordinal(34) correctly 1`] = `"34th"`;
+
+exports[`ordinal Should ordinal(35) correctly 1`] = `"35th"`;
+
+exports[`ordinal Should ordinal(36) correctly 1`] = `"36th"`;
+
+exports[`ordinal Should ordinal(37) correctly 1`] = `"37th"`;
+
+exports[`ordinal Should ordinal(38) correctly 1`] = `"38th"`;
+
+exports[`ordinal Should ordinal(39) correctly 1`] = `"39th"`;
+
+exports[`ordinal Should ordinal(40) correctly 1`] = `"40th"`;
+
+exports[`ordinal Should ordinal(41) correctly 1`] = `"41st"`;
+
+exports[`ordinal Should ordinal(42) correctly 1`] = `"42nd"`;
+
+exports[`ordinal Should ordinal(43) correctly 1`] = `"43rd"`;
+
+exports[`ordinal Should ordinal(44) correctly 1`] = `"44th"`;
+
+exports[`ordinal Should ordinal(45) correctly 1`] = `"45th"`;
+
+exports[`ordinal Should ordinal(46) correctly 1`] = `"46th"`;
+
+exports[`ordinal Should ordinal(47) correctly 1`] = `"47th"`;
+
+exports[`ordinal Should ordinal(48) correctly 1`] = `"48th"`;
+
+exports[`ordinal Should ordinal(49) correctly 1`] = `"49th"`;
+
+exports[`ordinal Should ordinal(50) correctly 1`] = `"50th"`;
+
+exports[`ordinal Should ordinal(51) correctly 1`] = `"51st"`;
+
+exports[`ordinal Should ordinal(52) correctly 1`] = `"52nd"`;
+
+exports[`ordinal Should ordinal(53) correctly 1`] = `"53rd"`;
+
+exports[`ordinal Should ordinal(54) correctly 1`] = `"54th"`;
+
+exports[`ordinal Should ordinal(55) correctly 1`] = `"55th"`;
+
+exports[`ordinal Should ordinal(56) correctly 1`] = `"56th"`;
+
+exports[`ordinal Should ordinal(57) correctly 1`] = `"57th"`;
+
+exports[`ordinal Should ordinal(58) correctly 1`] = `"58th"`;
+
+exports[`ordinal Should ordinal(59) correctly 1`] = `"59th"`;
+
+exports[`ordinal Should ordinal(60) correctly 1`] = `"60th"`;
+
+exports[`ordinal Should ordinal(61) correctly 1`] = `"61st"`;
+
+exports[`ordinal Should ordinal(62) correctly 1`] = `"62nd"`;
+
+exports[`ordinal Should ordinal(63) correctly 1`] = `"63rd"`;
+
+exports[`ordinal Should ordinal(64) correctly 1`] = `"64th"`;
+
+exports[`ordinal Should ordinal(65) correctly 1`] = `"65th"`;
+
+exports[`ordinal Should ordinal(66) correctly 1`] = `"66th"`;
+
+exports[`ordinal Should ordinal(67) correctly 1`] = `"67th"`;
+
+exports[`ordinal Should ordinal(68) correctly 1`] = `"68th"`;
+
+exports[`ordinal Should ordinal(69) correctly 1`] = `"69th"`;
+
+exports[`ordinal Should ordinal(70) correctly 1`] = `"70th"`;
+
+exports[`ordinal Should ordinal(71) correctly 1`] = `"71st"`;
+
+exports[`ordinal Should ordinal(72) correctly 1`] = `"72nd"`;
+
+exports[`ordinal Should ordinal(73) correctly 1`] = `"73rd"`;
+
+exports[`ordinal Should ordinal(74) correctly 1`] = `"74th"`;
+
+exports[`ordinal Should ordinal(75) correctly 1`] = `"75th"`;
+
+exports[`ordinal Should ordinal(76) correctly 1`] = `"76th"`;
+
+exports[`ordinal Should ordinal(77) correctly 1`] = `"77th"`;
+
+exports[`ordinal Should ordinal(78) correctly 1`] = `"78th"`;
+
+exports[`ordinal Should ordinal(79) correctly 1`] = `"79th"`;
+
+exports[`ordinal Should ordinal(80) correctly 1`] = `"80th"`;
+
+exports[`ordinal Should ordinal(81) correctly 1`] = `"81st"`;
+
+exports[`ordinal Should ordinal(82) correctly 1`] = `"82nd"`;
+
+exports[`ordinal Should ordinal(83) correctly 1`] = `"83rd"`;
+
+exports[`ordinal Should ordinal(84) correctly 1`] = `"84th"`;
+
+exports[`ordinal Should ordinal(85) correctly 1`] = `"85th"`;
+
+exports[`ordinal Should ordinal(86) correctly 1`] = `"86th"`;
+
+exports[`ordinal Should ordinal(87) correctly 1`] = `"87th"`;
+
+exports[`ordinal Should ordinal(88) correctly 1`] = `"88th"`;
+
+exports[`ordinal Should ordinal(89) correctly 1`] = `"89th"`;
+
+exports[`ordinal Should ordinal(90) correctly 1`] = `"90th"`;
+
+exports[`ordinal Should ordinal(91) correctly 1`] = `"91st"`;
+
+exports[`ordinal Should ordinal(92) correctly 1`] = `"92nd"`;
+
+exports[`ordinal Should ordinal(93) correctly 1`] = `"93rd"`;
+
+exports[`ordinal Should ordinal(94) correctly 1`] = `"94th"`;
+
+exports[`ordinal Should ordinal(95) correctly 1`] = `"95th"`;
+
+exports[`ordinal Should ordinal(96) correctly 1`] = `"96th"`;
+
+exports[`ordinal Should ordinal(97) correctly 1`] = `"97th"`;
+
+exports[`ordinal Should ordinal(98) correctly 1`] = `"98th"`;
+
+exports[`ordinal Should ordinal(99) correctly 1`] = `"99th"`;
+
+exports[`ordinal Should ordinal(100) correctly 1`] = `"100th"`;
+
+exports[`ordinal Should ordinal(101) correctly 1`] = `"101st"`;
+
+exports[`ordinal Should ordinal(102) correctly 1`] = `"102nd"`;
+
+exports[`ordinal Should ordinal(103) correctly 1`] = `"103rd"`;
+
+exports[`ordinal Should ordinal(104) correctly 1`] = `"104th"`;
+
+exports[`ordinal Should throw on ordinal(-2) 1`] = `"Number must be a positive integer. Instead got: -2"`;
+
+exports[`ordinal Should throw on ordinal(0) 1`] = `"Number must be a positive integer. Instead got: 0"`;
+
+exports[`ordinal Should throw on ordinal(3.5) 1`] = `"Number must be a positive integer. Instead got: 3.5"`;
+
+exports[`ordinal Should throw on ordinal(Infinity) 1`] = `"Number must be a positive integer. Instead got: Infinity"`;

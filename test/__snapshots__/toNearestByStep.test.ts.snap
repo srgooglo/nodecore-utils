@@ -1,0 +1,645 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toNearestByStep Should toNearestByStep(, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(, -0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(, 0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(, 0.002) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(, 0.005) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(, 0.0033333333333333335) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(, true) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, -0.001) correctly 1`] = `-0.4`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, 0.001) correctly 1`] = `-0.4`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, 0.002) correctly 1`] = `-0.4`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, 0.005) correctly 1`] = `-0.4`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, 0.0033333333333333335) correctly 1`] = `-0.4`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, 100) correctly 1`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, true) correctly 1`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(-0.4, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, -0.001) correctly 1`] = `-1`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, 0.001) correctly 1`] = `-1`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, 0.002) correctly 1`] = `-1`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, 0.005) correctly 1`] = `-1`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, 0.0033333333333333335) correctly 1`] = `-1`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, 100) correctly 1`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, true) correctly 1`] = `-1`;
+
+exports[`toNearestByStep Should toNearestByStep(-1, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, -0.001) correctly 1`] = `-4.5`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, 0.001) correctly 1`] = `-4.5`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, 0.002) correctly 1`] = `-4.5`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, 0.005) correctly 1`] = `-4.5`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, 0.0033333333333333335) correctly 1`] = `-4.5`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, 100) correctly 1`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, true) correctly 1`] = `-4`;
+
+exports[`toNearestByStep Should toNearestByStep(-4.5, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, -0.001) correctly 1`] = `-9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, 0.001) correctly 1`] = `-9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, 0.002) correctly 1`] = `-9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, 0.005) correctly 1`] = `-9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, 0.0033333333333333335) correctly 1`] = `-9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, 100) correctly 1`] = `-9007199254741000`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, true) correctly 1`] = `-9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(-9007199254740991, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, -0.001) correctly 1`] = `-Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, 0.001) correctly 1`] = `-Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, 0.002) correctly 1`] = `-Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, 0.005) correctly 1`] = `-Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, 0.0033333333333333335) correctly 1`] = `-Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, 100) correctly 1`] = `-Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, true) correctly 1`] = `-Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(-Infinity, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, ) correctly 2`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, -0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, -0.001) correctly 2`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0) correctly 2`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0.001) correctly 2`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0.002) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0.002) correctly 2`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0.005) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0.005) correctly 2`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0.0033333333333333335) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 0.0033333333333333335) correctly 2`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, 100) correctly 2`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, Infinity) correctly 2`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, NaN) correctly 2`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, false) correctly 2`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, null) correctly 2`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, true) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, true) correctly 2`] = `-0`;
+
+exports[`toNearestByStep Should toNearestByStep(0, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(0, undefined) correctly 2`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1, -0.001) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(1, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1, 0.001) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(1, 0.002) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(1, 0.005) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(1, 0.0033333333333333335) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(1, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(1, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1, true) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(1, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, -0.001) correctly 1`] = `1.414`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, 0.001) correctly 1`] = `1.414`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, 0.002) correctly 1`] = `1.414`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, 0.005) correctly 1`] = `1.415`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, 0.0033333333333333335) correctly 1`] = `1.4133333333333333`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, true) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(1.4142135623730951, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, -0.001) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, 0.001) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, 0.002) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, 0.005) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, 0.0033333333333333335) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, 100) correctly 1`] = `1.7976931348623157e+308`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, true) correctly 1`] = `1.7976931348623157e+308`;
+
+exports[`toNearestByStep Should toNearestByStep(1.7976931348623157e+308, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, -0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, 0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, 0.002) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, 0.005) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, 0.0033333333333333335) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, true) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(2.220446049250313e-16, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5, -0.001) correctly 1`] = `5`;
+
+exports[`toNearestByStep Should toNearestByStep(5, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5, 0.001) correctly 1`] = `5`;
+
+exports[`toNearestByStep Should toNearestByStep(5, 0.002) correctly 1`] = `5`;
+
+exports[`toNearestByStep Should toNearestByStep(5, 0.005) correctly 1`] = `5`;
+
+exports[`toNearestByStep Should toNearestByStep(5, 0.0033333333333333335) correctly 1`] = `5`;
+
+exports[`toNearestByStep Should toNearestByStep(5, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(5, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5, true) correctly 1`] = `5`;
+
+exports[`toNearestByStep Should toNearestByStep(5, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, -0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, 0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, 0.002) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, 0.005) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, 0.0033333333333333335) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, true) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(5e-324, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, -0.001) correctly 1`] = `10000`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, 0.001) correctly 1`] = `10000`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, 0.002) correctly 1`] = `10000`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, 0.005) correctly 1`] = `10000`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, 0.0033333333333333335) correctly 1`] = `10000`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, 100) correctly 1`] = `10000`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, true) correctly 1`] = `10000`;
+
+exports[`toNearestByStep Should toNearestByStep(10000, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, -0.001) correctly 1`] = `9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, 0.001) correctly 1`] = `9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, 0.002) correctly 1`] = `9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, 0.005) correctly 1`] = `9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, 0.0033333333333333335) correctly 1`] = `9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, 100) correctly 1`] = `9007199254741000`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, true) correctly 1`] = `9007199254740991`;
+
+exports[`toNearestByStep Should toNearestByStep(9007199254740991, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, -0.001) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, 0.001) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, 0.002) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, 0.005) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, 0.0033333333333333335) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, 100) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, true) correctly 1`] = `Infinity`;
+
+exports[`toNearestByStep Should toNearestByStep(Infinity, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, -0.001) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, 0.001) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, 0.002) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, 0.005) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, 0.0033333333333333335) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, 100) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, true) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(NaN, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(false, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(false, -0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(false, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(false, 0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(false, 0.002) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(false, 0.005) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(false, 0.0033333333333333335) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(false, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(false, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(false, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(false, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(false, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(false, true) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(false, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(null, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(null, -0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(null, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(null, 0.001) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(null, 0.002) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(null, 0.005) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(null, 0.0033333333333333335) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(null, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(null, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(null, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(null, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(null, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(null, true) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(null, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, -0.001) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, 0.001) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, 0.002) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, 0.005) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, 0.0033333333333333335) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, 100) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, true) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(string, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(true, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(true, -0.001) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(true, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(true, 0.001) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(true, 0.002) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(true, 0.005) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(true, 0.0033333333333333335) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(true, 100) correctly 1`] = `0`;
+
+exports[`toNearestByStep Should toNearestByStep(true, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(true, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(true, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(true, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(true, true) correctly 1`] = `1`;
+
+exports[`toNearestByStep Should toNearestByStep(true, undefined) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, ) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, -0.001) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, 0) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, 0.001) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, 0.002) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, 0.005) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, 0.0033333333333333335) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, 100) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, Infinity) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, NaN) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, false) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, null) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, true) correctly 1`] = `NaN`;
+
+exports[`toNearestByStep Should toNearestByStep(undefined, undefined) correctly 1`] = `NaN`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger() correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(-0.4) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(-1) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(-4.5) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(-9007199254740991) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(-Infinity) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(0) correctly 1`] = `true`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(0) correctly 2`] = `true`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(1) correctly 1`] = `true`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(1.4142135623730951) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(1.7976931348623157e+308) correctly 1`] = `true`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(2.220446049250313e-16) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(5) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(5e-324) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(10000) correctly 1`] = `true`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(9007199254740991) correctly 1`] = `true`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(Infinity) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(NaN) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(false) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(null) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(string) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(true) correctly 1`] = `false`;
+
+exports[`isNonNegativeInteger Should isNonNegativeInteger(undefined) correctly 1`] = `false`;

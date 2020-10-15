@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`limitConcurrent Should throw on a negative value 1`] = `"numConcurrent should be a positive integer or Infinity. Instead got: -1"`;
+
+exports[`limitConcurrent Should throw on a non-integer value 1`] = `"numConcurrent should be a positive integer or Infinity. Instead got: 3.141592653589793"`;
+
+exports[`limitConcurrent Should throw on zero 1`] = `"numConcurrent should be a positive integer or Infinity. Instead got: 0"`;
