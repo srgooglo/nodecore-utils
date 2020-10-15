@@ -3,7 +3,7 @@ import path from 'path'
 // @ts-ignore
 import stackTrace from 'stack-trace'
 import chalk from 'chalk'
-import { __legacy__objectToArray } from '../src'
+import { __legacy__objectToArray } from './objectToArray'
 
 interface Obj {
     data: any,
