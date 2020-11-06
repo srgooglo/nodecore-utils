@@ -70,17 +70,25 @@ export default <obj extends Readonly<Obj>>(data: obj["data"], params?: obj["para
     }
 
     const getColor = (data: any, index: number) => {
+        // @ts-ignore
         let thisColor = opt.color[index]
-        let thisBackground = opt.secondColor[index]
-
-        if (thisBackground) {
-            // @ts-ignore
-            return chalk[thisColor][thisBackground](data)
-        }
-
-        if (thisColor) {
+        let thisSecondColor = opt.secondColor[index]
+        let thisModifier = opt.modifiers[index]
+        // @ts-ignore
+        if (typeof (thisColor) !== "undefined" && thisColor && chalk[thisColor]) {
             // @ts-ignore
             return chalk[thisColor](data)
+        }
+        // @ts-ignore
+        if (typeof (thisSecondColor) !== "undefined" && thisSecondColor && chalk[thisSecondColor]) {
+            // @ts-ignore
+            return chalk[thisColor][thisSecondColor](data)
+        }
+
+        // @ts-ignore
+        if (typeof (thisModifier) !== "undefined" && thisModifier && chalk[thisModifier]) {
+            // @ts-ignore
+            return chalk[thisColor][thisSecondColor][thisModifiers](data)
         }
 
         return data
