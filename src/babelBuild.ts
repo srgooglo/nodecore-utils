@@ -1,4 +1,4 @@
-import babel from '@babel/core'
+const babel = require('@babel/core');
 import yParser from 'yargs-parser'
 import { join, extname, sep } from 'path'
 import { existsSync, statSync, readdirSync } from 'fs'
@@ -12,7 +12,7 @@ import chokidar from 'chokidar'
 
 const cwd = process.cwd();
 
-let pkgCount = Number;
+let pkgCount:any = null;
 
 function getBabelConfig(isBrowser, path) {
   const targets = isBrowser
@@ -43,19 +43,19 @@ function getBabelConfig(isBrowser, path) {
   }
 }
 
-function addLastSlash(path:String) {
+function addLastSlash(path: String) {
   return path.slice(-1) === '/' ? path : `${path}/`;
 }
 
 interface TransformTypes {
-    content: any;
-    path: any;
-    pkg: any;
-    root: any;
+  content: any;
+  path: any;
+  pkg: any;
+  root: any;
 }
 
 function transform(opts = {}) {
-  const { content, path, pkg, root } = <TransformTypes> opts;
+  const { content, path, pkg, root } = <TransformTypes>opts;
   assert(content, `opts.content should be supplied for transform()`);
   assert(path, `opts.path should be supplied for transform()`);
   assert(pkg, `opts.pkg should be supplied for transform()`);
@@ -66,7 +66,6 @@ function transform(opts = {}) {
   const isBrowser = browserFiles && browserFiles.includes(slash(path).replace(`${addLastSlash(slash(root))}`, ''));
   const babelConfig = getBabelConfig(isBrowser, path);
   verbosity(`transform > ${slash(path).replace(`${cwd}/`)} `)
-  // @ts-expect-error
   return babel.transform(content, {
     ...babelConfig,
     filename: path,
@@ -74,12 +73,12 @@ function transform(opts = {}) {
 }
 
 interface BuildTypes {
-    cwd: any;
-    watch: any;
+  cwd: any;
+  watch: any;
 }
 
 function build(dir, opts = {}) {
-  const { cwd, watch } = <BuildTypes> opts;
+  const { cwd, watch } = <BuildTypes>opts;
   assert(dir.charAt(0) !== '/', `dir should be relative`);
   assert(cwd, `opts.cwd should be supplied`);
 
@@ -109,7 +108,7 @@ function build(dir, opts = {}) {
       .pipe(through.obj((f, env, cb) => {
         if (['.js', '.ts'].includes(extname(f.path)) && !f.path.includes(`${sep}templates${sep}`)) {
           f.contents = Buffer.from(
-              // @ts-ignore
+            // @ts-ignore
             transform({
               content: f.contents,
               path: f.path,
@@ -126,10 +125,8 @@ function build(dir, opts = {}) {
 
   const stream = createStream(join(srcDir, '**/*'));
   stream.on('end', () => {
-    // @ts-expect-error
     pkgCount -= 1;
 
-    // @ts-expect-error
     if (pkgCount === 0 && process.send) {
       process.send('BUILD_COMPLETE');
     }
@@ -155,27 +152,28 @@ function isLerna(cwd) {
   return existsSync(join(cwd, 'lerna.json'));
 }
 
-// Init
-const args = yParser(process.argv.slice(3));
-const watch = args.w || args.watch;
-if (isLerna(cwd)) {
-  const dirs = readdirSync(join(cwd, 'packages'))
-    .filter(dir => dir.charAt(0) !== '.');
-        // @ts-expect-error
+export default function init() {
+  // Init
+  const args = yParser(process.argv.slice(3));
+  const watch = args.w || args.watch;
+  if (isLerna(cwd)) {
+    const dirs = readdirSync(join(cwd, 'packages'))
+      .filter(dir => dir.charAt(0) !== '.');
 
-  pkgCount = dirs.length;
-  dirs.forEach(pkg => {
-    build(`./packages/${pkg}`, {
+    pkgCount = dirs.length;
+    dirs.forEach(pkg => {
+      build(`./packages/${pkg}`, {
+        cwd,
+        watch,
+      });
+    });
+  } else {
+    pkgCount = 1;
+    build('./', {
       cwd,
       watch,
     });
-  });
-} else {
-        // @ts-expect-error
-
-  pkgCount = 1;
-  build('./', {
-    cwd,
-    watch,
-  });
+  }
 }
+
+init()

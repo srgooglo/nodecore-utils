@@ -20,3 +20,4 @@ export { default as racePromisesWithPositions } from './racePromisesWithPosition
 export { default as randomId } from './randomId'
 export { default as sliceRotate } from './sliceRotate'
 export { default as toNearestByStep } from './toNearestByStep'
+export { default as babelBuild } from './babelBuild'
