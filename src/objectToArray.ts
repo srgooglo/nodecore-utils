@@ -39,7 +39,7 @@ export function __legacy__objectToArray<obj extends Readonly<Obj>>(payload: obj)
     }
     obj.key = keys[i]
     obj.value = values[i]
-
+    // @ts-expect-error
     tmp[i] = obj
   }
   return tmp
