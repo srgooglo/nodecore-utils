@@ -59,7 +59,7 @@ export default <obj extends Readonly<Obj>>(data: obj["data"], params?: obj["para
                 }
             })
         }
-
+ 
         if (typeof (stackTraceParams) !== "undefined" || stackTraceParams != null) {
             // @ts-ignore
             __legacy__objectToArray(stackTraceParams).forEach((e: any) => {

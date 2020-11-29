@@ -20,3 +20,6 @@ export { default as racePromisesWithPositions } from './racePromisesWithPosition
 export { default as randomId } from './randomId'
 export { default as sliceRotate } from './sliceRotate'
 export { default as toNearestByStep } from './toNearestByStep'
+export { default as decycle } from './decycle'
+export { default as getCircularReplacer } from './getCircularReplacer'
+export { default as __proto__filterSchematizedArray } from './filterSchematizedArray'
