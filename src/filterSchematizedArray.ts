@@ -15,8 +15,10 @@ export default function __proto__filterSchematizedArray(data) {
                         return true
                     }
                 }
+                //@ts-ignore
                 validRequire ? tmp.push(element) : null
             } else {
+                //@ts-ignore
                 tmp.push(element)
             }
         })
